@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online-booking - Slay Beauty Salon</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="online-booking.html">
+                <img src="images/logo.png" alt="Slay Beauty Salon Logo" class="logo">
+            </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home |</a></li>
+                <li><a href="about-us.html">About Us |</a></li>
+                <li><a href="services.html">Services |</a></li>
+                <li><a href="testimonials.html">Testimonials |</a></li>
+                <li><a href="online-booking.html">Online Booking |</a></li>
+                <li><a href="contact-us.html">Contact Us |</a></li>
+                <li><a href="feedback-form.html">Feedback Form|</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section id="online-booking">
+            <h2>Online Booking</h2>
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Select Service:</label>
+                    <select id="service" name="service" required>
+                        <option value="hair-styling">Hair Styling</option>
+                        <option value="manicure-pedicure">Manicure & Pedicure</option>
+                        <option value="wigs">Hair Wigs</option>
+                        <option value="bridal-makeup">Bridal Makeup</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Preferred Time:</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                <button type="submit" class="submit-btn">Book Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Slay Beauty Salon. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
