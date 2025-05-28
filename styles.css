@@ -547,11 +547,6 @@ footer {
     text-align: center;
     margin-top: 18px;
 }
-@media (max-width: 600px) {
-    #feedback-form {
-        padding: 20px 8px 16px 8px;
-    }
-}
 /*button styles*/
 .btn{
     background-color: #ff69b4;
