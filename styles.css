@@ -317,7 +317,30 @@ footer {
     .booking-form .submit-btn:hover {
         background-color: #e0569b;
     }
-
+/*operating hours styles*/
+.operating-hours{
+    background:#fff0f6;
+    border: 1.5px solid #888;
+    border-radius: 10px;
+    margin-bottom:24px;
+    text-align: left;
+}
+.operating-hours h3{
+    color: #d63384;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+.operating-hours ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.operating-hours li{
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
 /* contact section styles*/
 
 #contact {
