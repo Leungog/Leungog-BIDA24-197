@@ -440,16 +440,13 @@ footer {
     color: #333;
 }
 
-#contact-info ul li a {
+#contact-info ul li  {
     text-decoration: none;
-    color: #ff69b4;
+    color: #d63384;
     font-weight: bold;
     transition: color 0.3s;
 }
 
-#contact-info ul li a:hover {
-    color: #e0569b;
-}
 /* Feedback Form Section */
 #feedback-form {
     margin: 40px auto;
